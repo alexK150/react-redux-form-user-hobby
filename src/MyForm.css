@@ -1,0 +1,83 @@
+:root {
+    --dark-color: #333333;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.divItems {
+    display: flex;
+}
+
+.removeBtn, .removeBtn {
+    width: 100px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: white;
+    color: var(--danger-color);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.removeBtn:hover {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.addUserBtn {
+    background-color: white;
+    color: var(--success-color);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.addUserBtn:hover {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.addHobbyBtn {
+    margin-top: 5px;
+    margin-left: -40px;
+    background-color: white;
+    color: var(--success-color);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.addHobbyBtn:hover {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.clearBtn {
+    background-color: var(--danger-color);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submitBtn {
+    background-color: var(--dark-color);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
